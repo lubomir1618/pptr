@@ -11,10 +11,9 @@ describe("screen match", () => {
     await page.goto("https://www.aktuality.sk/");
 
     const image = await page.screenshot();
+    await browser.close();
 
     // API from jest-image-snapshot
     expect(image).toMatchImageSnapshot({});
-
-    await browser.close();
   }, 10000);
 });
