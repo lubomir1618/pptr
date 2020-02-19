@@ -11,4 +11,5 @@ Install NodeJS [https://nodejs.org/en/](https://nodejs.org/en/) and follow these
 
 In terminal run:
 npm install
+
 npm test
